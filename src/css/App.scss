@@ -1,0 +1,42 @@
+
+.navbar {
+    .navbar-brand {
+        img{
+            height: 65px;
+        }
+        span{
+            padding-bottom: 0px !important;
+            font-size: 0.7rem;
+            font-weight: bold;
+        }
+    }
+    .navbar-collapse{
+        ul{
+            li{
+                a{
+                    font-size: 0.8rem;
+                }
+            }
+        }
+    } 
+    address{
+        font-size: 0.7rem;
+        font-weight: bold; 
+        img{
+            height:25px;
+        }
+    }
+}
+
+.pages{
+    margin-top:115px;
+    .heroImage{
+        height:80vh;
+        width:100vw;
+    }
+}
+
+.p-150{
+    padding-left: 150px;
+    padding-right: 150px;
+}
