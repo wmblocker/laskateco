@@ -11,7 +11,7 @@ export class Home extends Component{
                     <img src={heroImage} className="heroImage" alt="L.A Skate Company" />
                 </div>
                 <div className="row my-5">
-                    <div className="col-md-12 text-center">
+                    <div className="col-md-12 text-center px-5">
                         <h2>The oldest skateshop in Los Angeles and the largest selection of skateboards in the world.</h2>
                     </div>
                 </div>

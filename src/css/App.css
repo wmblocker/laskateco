@@ -22,4 +22,10 @@
   padding-left: 150px;
   padding-right: 150px; }
 
+.footer {
+  background-color: #000;
+  color: red; }
+  .footer ul li {
+    list-style-type: none; }
+
 /*# sourceMappingURL=App.css.map */

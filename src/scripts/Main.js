@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import { Router, Route, Link, Switch } from 'react-router-dom'
 import Nav from './Nav.js';
 import * as Pages from './Pages.js';
+import Footer from './Footer.js';
 
 class Main extends Component{
     render(){
@@ -19,6 +20,7 @@ class Main extends Component{
                             <Route path="/laskateco/shop" component={Pages.Shop} />
                             <Route path="/laskateco/contact" component={Pages.Contact} />
                         </div>
+                        <Footer />
                     </div>
                 </Switch>
             </React.Fragment>
